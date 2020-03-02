@@ -1,16 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>Experiment</title>
+  <!-- lab.js library and experiment code -->
+  <!-- lab.js library code -->
+  <script src="lib/lab.js" data-labjs-script="library"></script>
+  <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>
+  <link rel="stylesheet" href="lib/lab.css">
+  <!-- study code and styles -->
+  <script src="script.js" defer="true"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Chatbot will load in bottom right corner. Little purple circle.</h1>
-<script type="text/javascript"
-    id="botcopy-embedder-d7lcfheammjct"
-    class="botcopy-embedder-d7lcfheammjct" 
-    data-botId="5e581ef2ffd02a4825c509ed"
->
-    var s = document.createElement('script'); 
-    s.type = 'text/javascript'; s.async = true; 
-    s.src = 'https://widget.botcopy.com/js/injection.js'; 
-    document.getElementById('botcopy-embedder-d7lcfheammjct').appendChild(s);
-</script>
+  <!-- If you're looking to fill all available browser space,
+       try replacing the class below with "container fullscreen" -->
+  <div class="container fullscreen" data-labjs-section="main">
+    <main class="content-vertical-center content-horizontal-center">
+      <div>
+        <h2>Loading Experiment</h2>
+        <p>The experiment is loading and should start in a few seconds</p>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
