@@ -30,7 +30,7 @@ const study = lab.util.fromObject({
       "title": "Instruction",
       "parameters": {},
       "files": {},
-      "content": "\u003Cheader class=\"content-vertical-center content-horizontal-center\"\u003E\n  \u003Ch1\u003EStroop Task\u003C\u002Fh1\u003E\n\u003C\u002Fheader\u003E\n\u003Cmain\u003E\n  \u003Cp\u003E\n    Welcome to the \u003Cstrong\u003EStroop experiment\u003C\u002Fstrong\u003E!\n  \u003C\u002Fp\u003E\n  \u003Cp\u003E\n    In this part of the study, your task will be to \n    \u003Cstrong\u003Eidentify the color of the word shown \n    on the screen\u003C\u002Fstrong\u003E.\u003Cbr\u003E\n    The word itself is not important &mdash; \n    you can safely ignore it.\n  \u003C\u002Fp\u003E\n  \u003Cp\u003E\n    To indicate the color of the word, \n    please use the keyboard keys \u003Cstrong\u003Er\u003C\u002Fstrong\u003E, \n    \u003Cstrong\u003Eg\u003C\u002Fstrong\u003E, \u003Cstrong\u003Eb\u003C\u002Fstrong\u003E and \n    \u003Cstrong\u003Eo\u003C\u002Fstrong\u003E for \n    \u003Cspan style=\"color: red;\"\u003Ered\u003C\u002Fspan\u003E, \n    \u003Cspan style=\"color: green;\"\u003Egreen\u003C\u002Fspan\u003E, \n    \u003Cspan style=\"color: blue;\"\u003Eblue\u003C\u002Fspan\u003E and \n    \u003Cspan style=\"color: orange;\"\u003Eorange\u003C\u002Fspan\u003E, \n    respectively.\u003Cbr\u003E\n    Please answer quickly, and as \n    accurately as you can.\n  \u003C\u002Fp\u003E\n\u003C\u002Fmain\u003E\n\u003Cfooter class=\"content-vertical-center content-horizontal-center\"\u003E\n  Please click here and then press the space bar when you're ready to begin.\n\u003C\u002Ffooter\u003E\n"
+      "content": "\u003Cheader class=\"content-vertical-center content-horizontal-center\"\u003E\n  \u003Ch1\u003EStroop Task\u003C\u002Fh1\u003E\n\u003C\u002Fheader\u003E\n\u003Cmain\u003E\n  \u003Cp\u003E\n    Welcome to the \u003Cstrong\u003EStroop experiment\u003C\u002Fstrong\u003E!\n  \u003C\u002Fp\u003E\n  \u003Cp\u003E\n    In this part of the study, your task will be to \n    \u003Cstrong\u003Eidentify the color of the word shown \n    on the screen\u003C\u002Fstrong\u003E.\u003Cbr\u003E\n    The word itself is not important &mdash; \n    you can safely ignore it.\n  \u003C\u002Fp\u003E\n  \u003Cp\u003E\n    To indicate the color of the word, \n    please use the keyboard keys \u003Cstrong\u003Er\u003C\u002Fstrong\u003E, \n    \u003Cstrong\u003Eg\u003C\u002Fstrong\u003E, \u003Cstrong\u003Eb\u003C\u002Fstrong\u003E and \n    \u003Cstrong\u003Eo\u003C\u002Fstrong\u003E for \n    \u003Cspan style=\"color: red;\"\u003Ered\u003C\u002Fspan\u003E, \n    \u003Cspan style=\"color: green;\"\u003Egreen\u003C\u002Fspan\u003E, \n    \u003Cspan style=\"color: blue;\"\u003Eblue\u003C\u002Fspan\u003E and \n    \u003Cspan style=\"color: orange;\"\u003Eorange\u003C\u002Fspan\u003E, \n    respectively.\u003Cbr\u003E\n    Please answer quickly, and as \n    accurately as you can.\n  \u003C\u002Fp\u003E\n\u003C\u002Fmain\u003E\n\u003Cfooter class=\"\"\u003E\n \n\u003Cstrong\u003EMake sure that the CAPS LOCK is turned off before you start.\u003C\u002Fstrong\u003E\n\n\u003Cbr\u003E\n\n  Please click here and then press the \u003Cstrong\u003E space bar \u003C\u002Fstrong\u003E you're ready to begin.\n\n\u003C\u002Ffooter\u003E\n"
     },
     {
       "type": "lab.canvas.Frame",
@@ -245,134 +245,182 @@ const study = lab.util.fromObject({
         "messageHandlers": {},
         "type": "lab.flow.Loop",
         "responses": {},
-        "templateParameters": [
-          {
-            "color": "red",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "red",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "red",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "red",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "red",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "red",
-            "word": "orange",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "green",
-            "word": "orange",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "blue",
-            "word": "orange",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "red",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "green",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "blue",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "orange",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "orange",
-            "phase": "task"
-          },
-          {
-            "color": "orange",
-            "word": "orange",
-            "phase": "task"
-          }
-        ],
         "title": "Stroop task",
         "parameters": {},
         "files": {},
         "sample": {
           "mode": "draw-shuffle"
         },
+        "templateParameters": [
+          {
+            "color": "red",
+            "word": "red",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "red",
+            "word": "red",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "red",
+            "word": "red",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "red",
+            "word": "green",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "red",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "red",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "green",
+            "word": "red",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "green",
+            "word": "green",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "green",
+            "word": "green",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "green",
+            "word": "green",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "green",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "green",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "blue",
+            "word": "red",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "blue",
+            "word": "green",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "blue",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "blue",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "blue",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "blue",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "orange",
+            "word": "red",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "orange",
+            "word": "green",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "orange",
+            "word": "blue",
+            "phase": "task",
+            "congruent": "no",
+            "incongruent": "yes"
+          },
+          {
+            "color": "orange",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "orange",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          },
+          {
+            "color": "orange",
+            "word": "orange",
+            "phase": "task",
+            "congruent": "yes",
+            "incongruent": "no"
+          }
+        ],
         "shuffleGroups": [],
         "template": {
           "messageHandlers": {},

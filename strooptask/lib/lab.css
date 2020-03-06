@@ -85,7 +85,7 @@ main {
   border-radius: 0;
 }
 .container.fullscreen.frameless {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
 }
 
@@ -95,7 +95,7 @@ main {
     margin: 0;
     border: none;
     border-radius: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
   }
 }
