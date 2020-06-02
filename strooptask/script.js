@@ -17,8 +17,7 @@ const study = lab.util.fromObject({
       "path": undefined
     },
     {
-      "type": "lab.plugins.Transmit",
-      "url": "backend.php",
+      "type": "lab.plugins.PostMessage",
       "path": undefined
     }
   ],
